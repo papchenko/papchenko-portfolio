@@ -29,10 +29,9 @@ const ContactModal = ({ onClose }) => {
         "service_hllb7p1",
         "template_gdn6fcv",
         {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-          "g-recaptcha-response": recaptchaValue,
+          name: formData.name,           // From Name
+          email: formData.email,         // Reply To / From Email
+          message: formData.message,     // Content
         },
         "v13Oo-YtABqCO9JLF"
       );
